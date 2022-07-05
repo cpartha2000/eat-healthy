@@ -24,7 +24,8 @@ h2{
 }
 p, h4{
     color: grey;
-    margin-left: 20px;
+    padding: 5px;
+    
 }
 .orange{
     color: orange;
@@ -54,9 +55,6 @@ p, h4{
     text-decoration: none;
     color: white;
 }
-.flexible-container{
-
-}
 .bg-sec{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
@@ -67,17 +65,18 @@ p, h4{
     
 }
 .food-item{
-    width: 44%;
-    height:  700px;
-    margin-top: 30px;
-    margin: 10px 20px;
+    width: 610px;
+    height: 562px;
+    /* margin-top: 30px; */
+    margin: 10px;
     padding: 15px;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
     border-radius: 30px;
     text-align: justify;
 }
 .food-item img{
-  width: 90%;
+  width: 550px;
+  height: 308px;
   margin-left: 20px;
   margin-top: 20px;
 }
@@ -85,10 +84,14 @@ p, h4{
   padding: 6%;
   
 }
+.food-p{
+  margin-left: 20px;
+}
 .last-black{
   color: black;
   font-weight: bold;
   margin-left: 20px;
+  margin-right: 20px;
   
 }
 .gap{
